@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.container .header{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 4em;
+}
+
+.container .tags-div{
+    border-bottom: 1px solid grey;
+}
+
+.container .tags-div > p{
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin-bottom: 1.6em;
+}
+
+.container .tags-div > label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container .tags-div .tag-group{
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.container .tags-div .tag-input{
+    border: none;
+    outline: none;
+}
